@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/06996f812f.js" crossorigin="anonymous"></script>
 
     <title>Guia Hoteles</title>
 </head>
@@ -16,37 +18,91 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Hoteles</h1>
+            <h class="display-4">Hoteles</h>
             <p class="lead">Guia de Hoteles</p>
             <hr class="my-2">
         </div>
-   
-        <div class="container">
-           
-            <div class="row">
-              <div class="col">
-                 <h3>Hotel María</h3>
-                 <p>Hotel  mamá</p>
-                 <button>Reservar</button>
-              </div>
-              <div class="col">
-                <h3>Hotel Mónica</h3>
-                <p>Hotel amargado</p>
-                <button>Reservar</button>
-              </div>
-              <div class="col">
-                <h3>Hotel Catalina</h3>
-                <p>Hotel con vista al mar</p>
-                <button>Reservar</button>
-              </div>
-              <div class="col">
-                
-              </div>
-              
+    </div>
+    <div class="container">
+
+        <div class="d-flex flex-wrap">
+
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Bogotá</h3>
+                    <p>Hotel en Botogá</p>
+                </div>
+            
+            <div>
+                <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+            </div>
+        </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Cali</h3>
+                    <p>Hotel en Cali</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Medellín</h3>
+                    <p>Hotel en Medellín</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                </div>
             </div>
 
-          </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Soacha</h3>
+                    <p>Hotel en Soacha</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Cartagena</h3>
+                    <p>Hotel en cartagena</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel Santa Marta</h3>
+                    <p>Hotel en Santa Marta</p>
+                </div>
+                <div>
+                    <button type="button" class="btn  btn-reserva btn-warning">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <footer class="footer">
+        <div class="d-flex flex-wrap">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href=""><i class="fa fa-github fa-2x"></i></a>
+            </div>
+            <div class="col-sm-4 d-flex flex-column">
+                <address>
+                    <h3>Contacto</h3>
+                    <p>Bogotá, Colombia</p>
+                    <p>Calle 78A # 62 - 48</p>
+                    <p>3042449339</p>
+                </address>
+            </div>
+        </div>
+    </footer>
 </body>
+
 
 </html>
