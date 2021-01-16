@@ -4,6 +4,7 @@
   "description": "Primer proyecto especialización ",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ElLuchoMan/guia-hoteles/issues"
   },
-  "homepage": "https://github.com/ElLuchoMan/guia-hoteles#readme"
+  "homepage": "https://github.com/ElLuchoMan/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
