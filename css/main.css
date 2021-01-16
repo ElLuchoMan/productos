@@ -1,22 +1,37 @@
-.jumbotron{
-    background-color: yellow;
-    color: black;
+.jumbotro{
+    background-color: #33b5e5;
+    color: white;
 }
-.footer{
-    padding: 10px 10px 0 10px;
-    background-color: yellow;
-    color: black;
+.footer{    
+    padding: 20px 20px 0 0;
+    background-color:  #33b5e5;
     margin-bottom: 0px;
-    margin-top: 10px;
+       margin-top: 20px;
 }
-.btn-reserva{
+.btn-comprar{
     width: 100%;
+    
+    padding: 10px;
+     color: white;
+    background-color:#33b5e5;
+    border-radius: 6px;
+    border: 1px solid #0099cc;
 
 }
+.btn-comprar:hover{
+    color: #0099cc;
+    background-color: white;
+}
 
-.card-hotel{
+.card-producto{
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
     margin-top: 10px;
     
+}
+.h3{
+    color: #0099cc;
+}
+.icon{
+    color:white;
 }

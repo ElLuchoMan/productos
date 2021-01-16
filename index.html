@@ -3,106 +3,116 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shink-to-fit=no">
     <link href="./css/main.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/06996f812f.js" crossorigin="anonymous"></script>
-
-    <title>Guia Hoteles</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Mis productos</title>
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h class="display-4">Hoteles</h>
-            <p class="lead">Guia de Hoteles</p>
-            <hr class="my-2">
-        </div>
+    <div class="jumbotro jumbotron-fluid">
+        <h1 class="display-4">¡MIS PRODUCTOS!</h1>
+        <p class="lead">Compra el producto que desees y obtenlo enseguida!.</p>
+        <hr class="my-4">
     </div>
     <div class="container">
-
-        <div class="d-flex flex-wrap">
-
-            <div class="card-hotel d-flex flex-column justify-content-between">
+        <div class=" row d-flex flex-wrap">
+            <div class="card-producto d-flex flex-column justify-content-between">
                 <div>
-                    <h3>Hotel Bogotá</h3>
-                    <p>Hotel en Botogá</p>
-                </div>
-            
-            <div>
-                <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
-            </div>
-        </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h3>Hotel Cali</h3>
-                    <p>Hotel en Cali</p>
+                    <h3 class="h3">Nevera</h3>
+                    <img src="img/nevera.jpg" class="card-img-top">
+                    <p>Nevera de bajo consumo, con múltiples compartimientos para que almacenes lo que quieras sin
+                        preocupaciones.</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                    <button type="button" class="btn-comprar">Comprar</button>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card-producto d-flex flex-column justify-content-between">
                 <div>
-                    <h3>Hotel Medellín</h3>
-                    <p>Hotel en Medellín</p>
+                    <h3 class="h3">Televisor</h3>
+                    <img src="img/televisor.jpg" class="card-img-top">
+                    <p>Disfruta al máximo de tus películas y videojuegos favoritos con este televisor de 42" con tasa de
+                        refrezco de 144Hz que sirve como monitor para tu computadora</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
-                </div>
-            </div>
-
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h3>Hotel Soacha</h3>
-                    <p>Hotel en Soacha</p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                    <button type="button" class="btn-comprar">Comprar</button>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card-producto d-flex flex-column justify-content-between">
                 <div>
-                    <h3>Hotel Cartagena</h3>
-                    <p>Hotel en cartagena</p>
+                    <h3 class="h3">Equipo de sonido</h3>
+                    <img src="img/equipo.jpg" class="card-img-top">
+                    <p>Disfruta tu música ya sea solo o en compañía de toda tu familia y amigos con este equipo de
+                        sonido de gran poder.</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-reserva btn-warning">Reservar</button>
+                    <button type="button" class="btn-comprar">Comprar</button>
                 </div>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
+            <div class="card-producto d-flex flex-column justify-content-between">
                 <div>
-                    <h3>Hotel Santa Marta</h3>
-                    <p>Hotel en Santa Marta</p>
+                    <h3 class="h3">Computador de escritorio</h3>
+                    <img src="img/pc.jpg" class="card-img-top">
+                    <p>Realiza todos tus trabjos y proyectos con fluidez y velocidad, con este computador de escritorio
+                        de gran velocidad
+                        y gran capacidad de almacenamiento.</p>
                 </div>
                 <div>
-                    <button type="button" class="btn  btn-reserva btn-warning">Reservar</button>
+                    <button type="button" class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="card-producto d-flex flex-column justify-content-between">
+                <div>
+                    <h3 class="h3">Lavadora</h3>
+                    <img src="img/lavadora.jpg" class="card-img-top">
+                    <p>Dale un descanso a tus manos con esta poderoza lavadora de gran capacidad y bajo consumo,
+                        disponible en múltiples colores.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="card-producto d-flex flex-column justify-content-between">
+                <div>
+                    <h3 class="h3">Aspiradora</h3>
+                    <img src="img/aspiradora.jpg" class="card-img-top">
+                    <p>Disminuye el tiempo que tardas en la limpieza del hogar y dedícate un poco más de tiempoa a ti
+                        con esta aspiradora de gran potencia.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn-comprar">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
-
-
     <footer class="footer">
-        <div class="d-flex flex-wrap">
-            <div class="col-sm-4 d-flex flex-column">
-                <a href=""><i class="fa fa-github fa-2x"></i></a>
+        <div class=" row"> 
+            <div class="col-sm-4 d-flex flex-column align-items-start">
+                <a class="mt-2" href="http://www.github.com/ElLuchoMan"><i class="icon fa fa-github fa-2x">
+                        Github</i></a>
+                <a class="mt-2" href="https://www.linkedin.com/in/baluisto"><i class="icon fab fa-linkedin fa-2x">
+                        Linkedin</i></a>
             </div>
-            <div class="col-sm-4 d-flex flex-column">
+            <div class="col-sm-4">
                 <address>
-                    <h3>Contacto</h3>
+                    <h3>Oficina</h3>
                     <p>Bogotá, Colombia</p>
-                    <p>Calle 78A # 62 - 48</p>
-                    <p>3042449339</p>
+                    <p>+57 3042449339</p>
+                    <p>luchoman96@gmail.com</p>
                 </address>
+            </div>
+            <div class=" col-sm-4 d-flex flex-column align-items-end">
+                <a href="">Acerca de </a>
+                <a href="">Contacto </a>
+                <a href="">Términos y Condiciones </a>
             </div>
         </div>
     </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/06996f812f.js" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
