@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElLuchoMan/productos.git"
+    "url": "git+https://github.com/ElLuchoMan/guia-hoteles.git"
   },
   "author": "Alejandro Luis Torres",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElLuchoMan/productos/issues"
+    "url": "https://github.com/ElLuchoMan/guia-hoteles/issues"
   },
-  "homepage": "https://github.com/ElLuchoMan/productos#readme",
+  "homepage": "https://github.com/ElLuchoMan/guia-hoteles#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
