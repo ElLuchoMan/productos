@@ -11,7 +11,6 @@
 }
 .btn-comprar {
   width: 100%;
-
   padding: 10px;
   color: white;
   background-color: #33b5e5;
@@ -46,4 +45,7 @@
 .tabla-cuerpo {
   background-color: white;
   color: black;
+}
+.tab-content {
+  padding-top: 10px;
 }

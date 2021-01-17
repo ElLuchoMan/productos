@@ -38,87 +38,247 @@
                 <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
-        <div class="table-responsive">
-            <table cLass="table table-striped">
-                <thead class="tabla-titulo">
-                    <th>Marca</th>
-                    <th>Nevera</th>
-                    <th>Televisor</th>
-                    <th>Equipo de sonido</th>
-                    <th>Computador</th>
-                    <th>Lavadora</th>
-                    <th>Aspiradora</th>
-                    <th>Cafetera</th>
-                </thead>
-                <tbody class="tabla-cuerpo">
-                    <tr>
-                        <td>SAMSUNG</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                    </tr>
-                    <tr>
-                        <td>LG</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                    </tr>
-                    <tr>
-                        <td>PANASONIC</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                    </tr>
-                    <tr>
-                        <td>SONY</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                    </tr>
-                    <tr>
-                        <td>KALLEY</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                        <td>$2000</td>
-                    </tr>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link active" id="compara-tab" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">
+                    Compara</a>
+            </li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link " id="pago-tab" href="#pago" role="tab" aria-controls="pago"
+                    aria-selected="false">
+                    Métodos de pago</a>
+            </li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link" id="comentarios-tab" href="#comentarios" role="tab"
+                    aria-controls="comentarios" aria-selected="false">
+                    Comentarios</a>
+            </li>
 
-                </tbody>
+        </ul>
+        <div class="tab-content" id=myTabContent>
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <h4 align="center">Compara el precio del producto que quieres entre las marcas que lo ofrecen</h4>
+                <div class="table-responsive">
+                    <table cLass="table table-striped">
+                        <thead class="tabla-titulo">
+                            <th>Marca</th>
+                            <th>Nevera</th>
+                            <th>Televisor</th>
+                            <th>Equipo de sonido</th>
+                            <th>Computador</th>
+                            <th>Lavadora</th>
+                            <th>Aspiradora</th>
+                            <th>Cafetera</th>
+                        </thead>
+                        <tbody class="tabla-cuerpo">
+                            <tr>
+                                <td>SAMSUNG</td>
+                                <td>$1800</td>
+                                <td>$2200</td>
+                                <td>$2600</td>
+                                <td>$2500</td>
+                                <td>$2000</td>
+                                <td>$1800</td>
+                                <td>$2000</td>
+                            </tr>
+                            <tr>
+                                <td>LG</td>
+                                <td>$1600</td>
+                                <td>$1850</td>
+                                <td>$1800</td>
+                                <td>$2000</td>
+                                <td>$1900</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                            </tr>
+                            <tr>
+                                <td>PANASONIC</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                            </tr>
+                            <tr>
+                                <td>SONY</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                            </tr>
+                            <tr>
+                                <td>KALLEY</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                                <td>$2000</td>
+                            </tr>
 
-            </table>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="card">
-                <div class="card-header" style="width: 18rem; background-color: black; color: beige;">Métodos de pago
+                        </tbody>
+
+                    </table>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Efectivo </li>
-                    <li class="list-group-item">Tarjeta débito </li>
-                    <li class="list-group-item">Tarjeta crédito </li>
-                    <li class="list-group-item">Nequi </li>
-                    <li class="list-group-item">Daviplata </li>
-                </ul>
             </div>
 
+            <div class="tab-pane fade" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+                <h4 align="center">Conoce todas nuestras formas de pago</h4>
+                <div class="accordion" id="accordionPago">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseEfectivo" aria-expanded="true" aria-controls="collapseEfectivo">
+                                <span class="oi oi-dollar"></span> Efectivo
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseEfectivo" aria-labelledby="headingOne"
+                            data-parent="#accordionPago">
+                            <div class="card-body">
+                                Puedes pagar en efectivo contra entrega, cuando lleguen los productos a tu hogar.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseDebito" aria-expanded="true" aria-controls="collapseDebito">
+                                <span class="oi oi-credit-card"></span> Tarjeta Débito
+                            </button>
+
+                        </div>
+                        <div class="collapse" id="collapseDebito" aria-labelledby="headingTwo"
+                            data-parent="#accordionPago">
+                            <div class="card-body">
+                                Puedes pagar con tardetas débito habilitadas
+                                para compras online.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseCredito" aria-expanded="true" aria-controls="collapseCredito">
+                                <span class="oi oi-credit-card"></span> Tarjeta de Crédito
+                            </button>
+
+                        </div>
+                        <div class="collapse" id="collapseCredito" aria-labelledby="headingThree"
+                            data-parent="#accordionPago">
+                            <div class="card-body">
+                                Paga con tu tarjeta de crédito y acumula millas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseNequi" aria-expanded="true" aria-controls="collapseNequi">
+                                <span class="oi oi-phone"></span> Nequi
+                            </button>
+
+                        </div>
+                        <div class="collapse" id="collapseNequi" aria-labelledby="headingFour"
+                            data-parent="#accordionPago">
+                            <div class="card-body">
+                                Paga fácilmente desde Nequi, escaneando el código QR.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseDaviplata" aria-expanded="true" aria-controls="collapseDaviplata">
+                                <span class="oi oi-phone"></span> Daviplata
+                            </button>
+
+                        </div>
+                        <div class="collapse" id="collapseDaviplata" aria-labelledby="headingFive"
+                            data-parent="#accordionPago">
+                            <div class="card-body">
+                                Paga fácilmente desde Daviplata, ya sea escaneando el código QR, o mediante NFC*.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentraios-tab">
+                <h4 align="center">Últimos Comentarios de nuestros clientes</h4>
+                <table cLass="table table-striped">
+                    <thead class="tabla-titulo">
+                        <th>Cliente</th>
+                        <th>Ciudad</th>
+                        <th>Calificación</th>
+                        <th>Comentario</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diana Garzón</td>
+                            <td>Bogotá</td>
+                            <td><span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                            </td>
+                            <td>Siempre he comprado aquí, amo sus promociones y la calidad de sus productos.</td>
+                        </tr>
+                        <tr>
+                            <td>Fernando Pérez</td>
+                            <td>Cali</td>
+                            <td><span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                            </td>
+                            <td>Compré un Televisor que funciona perfecto, pero por motivo de la pandemia, ha tardado
+                                más en llegar.</td>
+                        </tr>
+                        <tr>
+                            <td>Benito Camelo</td>
+                            <td>Tunja</td>
+                            <td><span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                            </td>
+                            <td>Me encanta su asistencia para comprar y su servicio pos-venta</td>
+                        </tr>
+                        <tr>
+                            <td>Elvio Lado</td>
+                            <td>Medellín</td>
+                            <td><span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                                <span class="oi oi-heart"></span>
+                            </td>
+                            <td>Todo correcto.</td>
+                        </tr>
+                        <tr>
+                            <td>Mary Contreras</td>
+                            <td>Bogotá</td>
+                            <td><span class="oi oi-heart"></span>
+                            </td>
+                            <td>El producto que quería ya no está disponible.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
 

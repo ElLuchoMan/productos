@@ -10,7 +10,6 @@
     <title>Mis productos</title>
 </head>
 
-
 <body>
     <nav class="navbar navbar-dark navbar-expand-md bg-primary fixed-top ">
         <a class="navbar-brand" href="index.html">Productos</a>
@@ -28,7 +27,6 @@
 
         </div>
     </nav>
-
     <div class="jumbotro jumbotron-fluid">
         <h1 class="display-4">¡MIS PRODUCTOS!</h1>
         <p class="lead">Compra el producto que desees y obtenlo enseguida!.</p>
@@ -41,7 +39,39 @@
             </ol>
         </nav>
         <img src="img/banner.jpg" class="img-fluid banner" style="width: 1250px; height: 250px;" alt="Tienda">
+        <div class=" mt-2 d-flex flex-wrap" align="center">
+            <div class="col">
+                <buton class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
+                    aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</buton>
+                <buton class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago"
+                    aria-expanded="false" aria-controls="multiCollapse2">¿Cómo pago?</buton>
+                <buton class="btn btn-primary" type="button" data-toggle="collapse" data-target="#envio"
+                    aria-expanded="false" aria-controls="multiCollapse3">¿Cuándo llega?</buton>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap">
+            <div class="col collapse multi-collapse" id="funciona">
+                <p>
+                <h3>¿Cómo funciona?</h3>
+                <p>Seleccionas el producto que te guste, lo pagas y te llega a la puerta de tu casa.</p>
+                </p>
+            </div>
+            <div class="col collapse multi-collapse" id="pago">
+                <p>
+                <h3>¿Cómo pago?</h3>
+                <p>En la sección de precios encontrarás todos los métodos de pago.
+                    Además, cuentas con protección al comprador*.</p>
+                </p>
+            </div>
 
+            <div class="col collapse multi-collapse" id="envio">
+                <p>
+                <h3>¿Cuándo llega?</h3>
+                <p>Al momento de pagar, podrás verificar los tiempos de envío, que no son más de 7 días.</p>
+                </p>
+            </div>
+
+        </div>
         <div class="d-flex flex-wrap">
 
             <div class="card card-producto d-flex flex-column justify-content-between ml-2">
@@ -148,8 +178,6 @@
                 </div>
             </div>
         </div>
-        
-
     </div>
     <footer class="footer">
         <div class=" row">
@@ -174,7 +202,6 @@
             </div>
         </div>
     </footer>
-
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper-utils.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
