@@ -24,11 +24,10 @@
 }
 
 .card-producto {
-  flex: 1 150px;
-  padding: 2px 5px 2px 5px;
+  flex: 1 200px;
   margin-top: 10px;
 }
-.h3 {
+.h {
   color: #0099cc;
 }
 .icon {
@@ -40,11 +39,11 @@
 .btn-icon {
   padding-right: 10px;
 }
-.tabla-titulo{
-  background-color:#0099cc;
+.tabla-titulo {
+  background-color: #0099cc;
   color: white;
 }
-.tabla-cuerpo{
+.tabla-cuerpo {
   background-color: white;
-  color:black;
+  color: black;
 }
