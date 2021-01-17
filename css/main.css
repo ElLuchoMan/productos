@@ -40,3 +40,11 @@
 .btn-icon {
   padding-right: 10px;
 }
+.tabla-titulo{
+  background-color:#0099cc;
+  color: white;
+}
+.tabla-cuerpo{
+  background-color: white;
+  color:black;
+}
