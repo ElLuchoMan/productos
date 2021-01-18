@@ -76,15 +76,16 @@
 
             <div class="card card-producto d-flex flex-column justify-content-between ml-2">
                 <div class="card-boddy">
-                    <h4 class="h card-title">Nevera</h4>
+                    <h4 class="h card-title" >Nevera</h4>
                     <h7 class="card-subtitle text-muted">750 Unidades</h7>
-                    <img src="img/nevera.jpg" class="card-img-top" alt="producto-img">
+                    <img  src="img/nevera.jpg" class="card-img-top" alt="producto-img">
                     <p class="card-text">Nevera de bajo consumo, con múltiples compartimientos para que almacenes lo que
                         quieras sin
                         preocupaciones.</p>
                 </div>
-                <div>
-                    <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                <div><a data-toggle="tooltip" data-placement="top" title="No disponible para envío contra entrega" >
+                    <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span  class="oi oi-cart btn-icon"></span>Comprar</button>
+                </a>
                 </div>
             </div>
 
@@ -92,24 +93,28 @@
                 <div class="card-boddy">
                     <h4 class="h card-title">Televisor</h4>
                     <h7 class="card-subtitle text-muted">800 Unidades</h7>
-                    <img src="img/televisor.jpg" class="card-img-top" alt="producto-img">
+                    <img  src="img/televisor.jpg" class="card-img-top" alt="producto-img">
                     <p>Disfruta al máximo de tus películas y videojuegos favoritos con este televisor de 42" con tasa de
                         refrezco de 144Hz que sirve como monitor para tu computadora</p>
                 </div>
                 <div>
+                    <a data-toggle="tooltip" data-placement="top" title="No disponible para pago con Nequi o Daviplata" >
                     <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                    </a>
                 </div>
             </div>
             <div class=" card card-producto d-flex flex-column justify-content-between ml-2">
                 <div class="card-boddy">
                     <h4 class="h card-title">Equipo de sonido</h4>
-                    <h7 class="card-subtitle text-muted">650 Unidades</h7>
-                    <img src="img/equipo.jpg" class="card-img-top" alt="producto-img">
+                    <h7 class="card-subtitle text-muted">0 Unidades</h7>
+                    <img   src="img/equipo.jpg" class="card-img-top" alt="producto-img">
                     <p>Disfruta tu música ya sea solo o en compañía de toda tu familia y amigos con este equipo de
                         sonido de gran poder.</p>
                 </div>
                 <div>
+                    <a data-toggle="popover" data-content="Más unidades en camino" title="Sin Unidades">
                     <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                    </a>
                 </div>
             </div>
             <div class=" card card-producto d-flex flex-column justify-content-between ml-2">
@@ -122,7 +127,7 @@
                         y gran capacidad de almacenamiento.</p>
                 </div>
                 <div>
-                    <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                    <button  type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
                 </div>
             </div>
         </div>
@@ -136,7 +141,7 @@
                         disponible en múltiples colores.</p>
                 </div>
                 <div>
-                    <button type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                    <a data-toggle="tooltip" data-placement="top" title="Tiempo de espera de mínimo 14 días" ><button  type="button" data-toggle="modal" data-target="#ingreso"  class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button></a>
                 </div>
             </div>
             <div class=" card card-producto d-flex flex-column justify-content-between ml-2">
@@ -169,14 +174,14 @@
             <div class=" card card-producto d-flex flex-column justify-content-between ml-2">
                 <div class="card-boddy">
                     <h4 class="h card-title">Tostadora</h4>
-                    <img src="img/tostadora.jpg" class="card-img-top">
                     <h7 class="card-subtitle text-muted">2000 Unidades</h7>
+                    <img  src="img/tostadora.jpg" class="card-img-top">
                     <p> Disfruta de las más deliciosas tostadas gracias a esta tostadora de diseño retro
                     </p>
                 </div>
                 <div>
-                    <button type="button" data-toggle="modal"
-                    data-target="#ingreso" class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button>
+                    <a   data-toggle="tooltip" data-placement="top" title="No disponible para pago contra entrega" > <button     type="button" data-toggle="modal"
+                    data-target="#ingreso" class="btn-comprar"><span class="oi oi-cart btn-icon"></span>Comprar</button></a>
                 </div>
             </div>
         </div>
@@ -207,39 +212,50 @@
             </div>
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper-utils.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/06996f812f.js" crossorigin="anonymous"></script>
-</body>
-<div class="modal fade" id="ingreso" tabindex="1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-tittle" id="modalLabel">
-                    Para continuar, debes ingresar</h5>
-                <button type="button" data-dismiss="modal" class="close" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Tu email:</label>
-                        <input type="text" class="form-control" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword" class="col-form-label">Contraseña</label>
-                        <input class="form-control" type="password" id="inputPassword">
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success"> Enviar</button>
+    <div class="modal fade" id="ingreso" tabindex="1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-tittle" id="modalLabel">
+                        Para continuar, debes ingresar</h5>
+                    <button type="button" data-dismiss="modal" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Tu email:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword" class="col-form-label">Contraseña</label>
+                            <input class="form-control" type="password" id="inputPassword">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success"> Enviar</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+
+    
+
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/06996f812f.js" crossorigin="anonymous"></script>
+    <script>
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+  $("[data-toggle='popover']").popover();
+});
+    </script>
+</body>
+
 
 
 </html>
