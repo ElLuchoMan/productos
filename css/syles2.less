@@ -1,49 +1,48 @@
-$azul1: #33b5e5;
-$azul2:#0099cc;
-
-@mixin margen($top, $bottom){
-    margin-top: $top;
-    margin-bottom: $bottom;
+@azul1: #33b5e5;
+@azul2: #0099cc;
+.margen(@top:0px, @bottom:0px){
+    margin-top: @top;
+    margin-bottom:@bottom;
 }
-
 .jumbotro {
-    background-color: $azul1;
+    background-color: @azul1;
     color: white;
-    @include margen(55px,0px);
+    .margen(55px,0px);
 }
   
   .footer {
     padding: 20px 20px 0 0;
-    background-color: $azul1;
-    @include margen(20px, 0px);
+    background-color: @azul1;
+    .margen(20px, 0px);
   }
- 
+  
   .btn-comprar {
     width: 100%;
     padding: 10px;
     color: white;
-    background-color: $azul1;
+    background-color: @azul1;
     border-radius: 6px;
-    border: 1px solid $azul2; }
+    border: 1px solid @azul2; }
   
   .btn-press {
     width: 100%;
     padding: 10px;
-    color: $azul2;
+    color: #0099cc;
     background-color: white;
     border-radius: 6px;
-    border: 1px solid $azul2; }
+    border: 1px solid @azul2; }
   
   .btn-comprar:hover {
-    color: $azul2;
+    color: #0099cc;
     background-color: white; }
   
   .card-producto {
     flex: 1 200px;
-    @include margenes(10px,0px);
-  }
+    margin-top: 10px;
+    margin-bottom: 0px; }
+  
   .h {
-    color: $azul2; }
+    color: @azul2; }
   
   .icon {
     color: white; }
@@ -55,7 +54,7 @@ $azul2:#0099cc;
     padding-right: 10px; }
   
   .tabla-titulo {
-    background-color: $azul2;
+    background-color: @azul2;
     color: white; }
   
   .tabla-cuerpo {
@@ -63,5 +62,5 @@ $azul2:#0099cc;
     color: black; }
   
   .tab-content {
-    padding-top: 10px; 
-}
+    padding-top: 10px; }
+  

@@ -1,0 +1,60 @@
+.jumbotro {
+  background-color: #33b5e5;
+  color: white;
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+.footer {
+  padding: 20px 20px 0 0;
+  background-color: #33b5e5;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.btn-comprar {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #33b5e5;
+  border-radius: 6px;
+  border: 1px solid #0099cc;
+}
+.btn-press {
+  width: 100%;
+  padding: 10px;
+  color: #0099cc;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #0099cc;
+}
+.btn-comprar:hover {
+  color: #0099cc;
+  background-color: white;
+}
+.card-producto {
+  flex: 1 200px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.h {
+  color: #0099cc;
+}
+.icon {
+  color: white;
+}
+.footer-address-icon {
+  padding-right: 10px;
+}
+.btn-icon {
+  padding-right: 10px;
+}
+.tabla-titulo {
+  background-color: #0099cc;
+  color: white;
+}
+.tabla-cuerpo {
+  background-color: white;
+  color: black;
+}
+.tab-content {
+  padding-top: 10px;
+}
