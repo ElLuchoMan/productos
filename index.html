@@ -239,10 +239,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-
+        </div>
     <footer class="footer">
         <div class=" row">
             <div class="col-sm-4 d-flex flex-column align-items-start">
@@ -296,8 +293,6 @@
     </div>
 
 
-
-
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -305,9 +300,25 @@
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip();
-            $("[data-toggle='popover']").popover();
+            $("[data-toggle='popover']").popover({
+                
+            });
             $('.carousel').carousel({
-                interval: 3000 
+                interval: 2000
+            });
+
+            $('#ingreso').on('show.bs.modal', function (e) {
+                console.log('el modal se muestra');
+                $('#ingreso').prop('disabled',true);
+            });
+            $('#ingreso').on('shown.bs.modal', function (e) {
+                console.log('el modal se ve');
+            });
+            $('#ingreso').on('hide.bs.modal', function (e) {
+                console.log('el modal se cierra');
+            });
+            $('#ingreso').on('hiden.bs.modal', function (e) {
+                console.log('el modal se oculta');
             });
         });
     </script>

@@ -17,6 +17,14 @@
   border-radius: 6px;
   border: 1px solid #0099cc;
 }
+.btn-press {
+  width: 100%;
+  padding: 10px;
+  color: #0099cc;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #0099cc;
+}
 .btn-comprar:hover {
   color: #0099cc;
   background-color: white;
