@@ -1,0 +1,67 @@
+$azul1: #33b5e5;
+$azul2:#0099cc;
+
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotro {
+    background-color: $azul1;
+    color: white;
+    @include margenes(55px,0px);
+}
+  
+  .footer {
+    padding: 20px 20px 0 0;
+    background-color: $azul1;
+    @include margenes (20px, 0px);
+  }
+ 
+  .btn-comprar {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: $azul1;
+    border-radius: 6px;
+    border: 1px solid $azul2; }
+  
+  .btn-press {
+    width: 100%;
+    padding: 10px;
+    color: $azul2;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid $azul2; }
+  
+  .btn-comprar:hover {
+    color: $azul2;
+    background-color: white; }
+  
+  .card-producto {
+    flex: 1 200px;
+    @include margenes(10px,0px);
+  }
+  .h {
+    color: $azul2; }
+  
+  .icon {
+    color: white; }
+  
+  .footer-address-icon {
+    padding-right: 10px; }
+  
+  .btn-icon {
+    padding-right: 10px; }
+  
+  .tabla-titulo {
+    background-color: $azul2;
+    color: white; }
+  
+  .tabla-cuerpo {
+    background-color: white;
+    color: black; }
+  
+  .tab-content {
+    padding-top: 10px; 
+}
